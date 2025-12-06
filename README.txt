@@ -65,14 +65,30 @@ When you run VaultZilla, you’ll see a menu with options like:
   they could attempt brute-force attacks.
 
 ---
+## 📜 Licensing & Attribution
 
-## Tips
-- Use bold green text in the CLI for important messages.
-- Customize colors with ANSI escape codes for better readability.
-- Store your vault files in a safe location (e.g., `%APPDATA%\VaultZilla`).
+This project is released under the MIT License. You are free to use, modify, and distribute the code, provided that the original copyright notice and license terms are included.
+
+### Dependencies
+The Password Manager application is built with Python’s standard library modules and one third‑party library:
+
+- `os`, `sys`, `json`, `hashlib`, `base64`, `secrets`, `getpass` (Python standard library)
+- `cryptography.fernet` (Apache License 2.0) – https://cryptography.io/
+
+### Attribution
+All original code in this repository is the work of [Simon Buckler](https://github.com/bucklersimon-droid).  
+If you build upon this project, please include a reference back to this repository:  
+[Password-Manager-application](https://github.com/bucklersimon-droid/Password-Manager-application-)
+
+The `cryptography` library is developed and maintained by the Python Cryptographic Authority (PyCA).  
+Use of this library is subject to the terms of the Apache License 2.0, which requires:
+- Preservation of copyright notices and license text in redistributions.
+- Clear attribution to the original authors.
+- No use of trademarks from the project without permission.
+- No warranty is provided by the authors.
+
+### Notes
+- Project icon generated with Microsoft Copilot AI. and remain the IP of Simon Buckler.
+- Developed as part of VU Certificate III Information Technology (CyberSec stream) coursework.
 
 ---
-
-## Credits
-Developed by Simon Buckler as part of VU Cyber Cert III.
-VaultZilla combines practical security with playful design.
